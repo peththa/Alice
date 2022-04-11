@@ -239,7 +239,7 @@ module.exports = tobz = async (tobz, message) => {
         const serial = sender.id
 
         const isAdmin = adminNumber.includes(sender.id)
-        const ownerNumber = '6281338888294@c.us'
+        const ownerNumber = '94776096313@c.us'
         const isOwner = ownerNumber.includes(sender.id)
         
         const isWhite = (chatId) => adminNumber.includes(chatId) ? true : false
